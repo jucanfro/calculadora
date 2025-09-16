@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to left, #f7b3d3, #d6c6f5, #f7a27a, #ffe28a);
+}
+
+.calculator {
+  background: #fff8f0;
+  padding: 20px;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 330px;
+}
+
+#display {
+  background: #fff;
+  height: 60px;
+  border-radius: 12px;
+  padding: 10px;
+  font-size: 1.6rem;
+  text-align: right;
+  border: 2px solid #ddd;
+  outline: none;
+}
+
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-top: 10px;
+}
+
+button, .star {
+  height: 65px;
+  width: 65px;
+  border: none;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.15s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button:active {
+  transform: scale(0.92);
+}
+
+.star {
+  background: #e62323;
+  padding: 8px;
+  border-radius: 50%;
+
+}
+
+/* cores pastel */
+.gray {
+  background: #23bbcf;
+  color: #fff;
+}
+
+.pink {
+  background: #f7b3d3;
+  color: #333;
+}
+
+.lavender {
+  background: #d6c6f5;
+  color: #333;
+}
+
+.orange {
+  background: #f7a27a;
+  color: #fff;
+}
+
+.yellow {
+  background: #ffe28a;
+  color: #333;
+}
+
+.green {
+  background: #38b000;
+  color: #fff;
+}
+
+.zero {
+  grid-column: span 2;
+  border-radius: 40px; /* botão mais comprido */
+  width: auto;
+}

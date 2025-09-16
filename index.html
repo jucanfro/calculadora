@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="calculator">
+      <input type="text" id="display" readonly>
+
+      <div class="buttons">
+        <!-- primeira linha -->
+        <img src="src/img/imagem.png" alt="coracao" class="star">
+        <button id="cleanDisplay" value="C" class="gray">C</button>
+        <button id="deleteDigit" value="CE" class="gray">CE</button>
+        <button id="division" value="/" class="gray">÷</button>
+
+        <!-- segunda linha -->
+        <button id="num7" value="7" class="pink">7</button>
+        <button id="num8" value="8" class="pink">8</button>
+        <button id="num9" value="9" class="pink">9</button>
+        <button id="multiplication" value="*" class="gray">×</button>
+
+        <!-- terceira linha -->
+        <button id="num4" value="4" class="lavender">4</button>
+        <button id="num5" value="5" class="lavender">5</button>
+        <button id="num6" value="6" class="lavender">6</button>
+        <button id="subtraction" value="-" class="gray">-</button>
+
+        <!-- quarta linha -->
+        <button id="num1" value="1" class="orange">1</button>
+        <button id="num2" value="2" class="orange">2</button>
+        <button id="num3" value="3" class="orange">3</button>
+        <button id="sum" value="+" class="gray">+</button>
+
+        <!-- quinta linha -->
+        <button id="num0" value="0" class="yellow zero">0</button>
+        <button id="point" value="." class="yellow">.</button>
+        <button id="result" value="=" class="green">=</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
