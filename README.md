@@ -1,22 +1,22 @@
-# 📟 Calculadora | Calculator
+# Calculadora | Calculator
 
 Calculadora simples desenvolvida com **HTML5, CSS3 e JavaScript**.  
 A interface foi inspirada em calculadoras físicas, com botões arredondados e coloridos, em layout responsivo.
 
 ---
 
-## 📋 Detalhes | Details
+## Detalhes | Details
 
-- ➕➖✖️➗ Realiza operações básicas: **adição, subtração, multiplicação e divisão**  
-- 🧹 Função **C**: limpa todo o conteúdo do visor  
-- ⬅️ Função **CE**: deleta apenas o último dígito  
-- 🔢 Permite apenas **um ponto decimal (".")** por número inserido  
-- 🚫 Não permite inserir mais de um operador matemático em sequência  
-- 🛡️ Desenvolvida **sem uso da função `eval()`** (parser próprio de expressões)  
+- Realiza operações básicas: **adição, subtração, multiplicação e divisão**  
+- Função **C**: limpa todo o conteúdo do visor  
+- Função **CE**: deleta apenas o último dígito  
+- Permite apenas **um ponto decimal (".")** por número inserido  
+- Não permite inserir mais de um operador matemático em sequência  
+- Desenvolvida **sem uso da função `eval()`** (parser próprio de expressões)  
 
 ---
 
-## 🎨 Layout
+## Layout
 
 - Botões arredondados e coloridos (estilo "pastel").  
 - Imagem de estrela posicionada como um botão decorativo.  
@@ -24,7 +24,7 @@ A interface foi inspirada em calculadoras físicas, com botões arredondados e c
 
 ---
 
-## 🚀 Tecnologias | Technologies
+## Tecnologias | Technologies
 
 - **HTML5**  
 - **CSS3**  
@@ -32,7 +32,7 @@ A interface foi inspirada em calculadoras físicas, com botões arredondados e c
 
 ---
 
-## 📂 Estrutura de Pastas | Folder Structure
+## Estrutura de Pastas | Folder Structure
 
 /src
 /img
